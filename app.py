@@ -5,7 +5,7 @@ from dash import html, dcc, Input, Output
 import dash_bootstrap_components as dbc
 
 # Carregar a base de dados
-df = pd.read_csv(r'C:\Users\Victo\DashBoard\predictive_maintenance.csv')
+df = pd.read_csv(r'predictive_maintenance.csv')
 
 # Criar o aplicativo Dash
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
